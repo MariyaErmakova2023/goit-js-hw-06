@@ -18,7 +18,7 @@ const customer = {
   },
   addOrder(cost, order) {
     balance -= cost - cost * this.discount;
-    this.orders.push(order);
+    orders.push(order);
   },
   // Change code above this line
 };
