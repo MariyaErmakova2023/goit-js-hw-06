@@ -12,7 +12,7 @@ addItem(newItem) {
 }
     
 removeItem(itemToRemove) {
-   this.#items = this.#items.filter(item => item !=== itemToRemove);
+   this.#items = this.#items.filter(item => item !== itemToRemove);
 }
 }
 
